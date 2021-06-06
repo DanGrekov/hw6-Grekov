@@ -1,0 +1,15 @@
+@import"common/var.css";
+
+@import"components/header.css";
+@import"components/block.css";
+@import"components/services.css";
+@import"components/prodacts.css";
+@import"components/footer.css";
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
