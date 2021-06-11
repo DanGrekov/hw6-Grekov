@@ -29,9 +29,8 @@ div.our-strong{
     color: #656363;
     font-family: var(--font);
     font-size: 15px;
-    max-width: 500px;
     line-height: 21px;
-    height: 300px;
+    width: 50%;
     
 }
 
@@ -39,15 +38,17 @@ a.Contact-Us{
     color: white;
     text-decoration: none;
     background-color: var(--first-collor);
-    padding: 10px 0;
+    padding: 10px 48px;
     display: inline-block;
     border-radius: 5px;
     font-family: var(--font);
-    width: 180px;
     text-align: center;
     margin-top: 30px;
     font-size: 17px;
     transition: box-shadow 0.5s;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    max-width: 20%;
 }
 
 a.Contact-Us:hover{
@@ -57,11 +58,11 @@ a.Contact-Us:hover{
 div.our-strong{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 video{
-    width: 500px;
+    width: 100%;
     box-shadow: 0 0 100px rgb(75, 75, 75);
     margin-top: 40px;
 }
@@ -70,13 +71,15 @@ div.video{
     vertical-align: middle;
     display: flex;
     align-items: flex-end;
+    width: 50%;
 }
 
 main h1.strong{
-    margin: 20px 0 0;
+    margin: 0 0 20px;
     font-size: 60px;
     padding: 0;
     color: rgb(0, 0, 0);
-    width: 600px;
+    max-width: 600px;
     font-weight: 600;
+    line-height: 60px;
 }

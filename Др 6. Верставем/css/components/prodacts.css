@@ -60,19 +60,23 @@ a.special-a{
 
 div.boxes{ 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-wrap: wrap;  
 }
-
 div.box-block{
-    margin: 20px 5px;
-    width:250px;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+div.box-content{
     height: 250px;
     background-color: #f5f0dd;
     transition: box-shadow 0.5s;
 }
 
-div.box-block:hover{
+div.box-content:hover{
     box-shadow: 0 0 20px rgb(134, 134, 134);
 }
 
